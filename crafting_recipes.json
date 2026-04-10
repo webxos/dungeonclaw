@@ -1,0 +1,154 @@
+{
+  "weapons": {
+    "Iron Sword": {
+      "materials": { "Metal Scrap": 3, "Leather Scrap": 1 },
+      "gold_cost": 10,
+      "result": {
+        "name": "Iron Sword",
+        "type": "weapon",
+        "bonus": 2,
+        "value": 20,
+        "consumable": false
+      }
+    },
+    "Steel Axe": {
+      "materials": { "Metal Scrap": 5 },
+      "gold_cost": 20,
+      "result": {
+        "name": "Steel Axe",
+        "type": "weapon",
+        "bonus": 4,
+        "value": 30,
+        "consumable": false
+      }
+    },
+    "Elven Bow": {
+      "materials": { "Wood Scrap": 3, "Essence": 2 },
+      "gold_cost": 40,
+      "result": {
+        "name": "Elven Bow",
+        "type": "weapon",
+        "bonus": 5,
+        "value": 50,
+        "consumable": false
+      }
+    }
+  },
+  "armor": {
+    "Leather Armor": {
+      "materials": { "Leather Scrap": 3 },
+      "gold_cost": 10,
+      "result": {
+        "name": "Leather Armor",
+        "type": "armor",
+        "bonus": 1,
+        "value": 15,
+        "consumable": false
+      }
+    },
+    "Chainmail": {
+      "materials": { "Metal Scrap": 4, "Leather Scrap": 2 },
+      "gold_cost": 30,
+      "result": {
+        "name": "Chainmail",
+        "type": "armor",
+        "bonus": 3,
+        "value": 30,
+        "consumable": false
+      }
+    },
+    "Plate Armor": {
+      "materials": { "Metal Scrap": 6 },
+      "gold_cost": 40,
+      "result": {
+        "name": "Plate Armor",
+        "type": "armor",
+        "bonus": 3,
+        "value": 60,
+        "consumable": false
+      }
+    }
+  },
+  "potions": {
+    "Lesser Health Potion": {
+      "materials": { "Herb Bundle": 2, "Essence": 1 },
+      "gold_cost": 5,
+      "result": {
+        "name": "Lesser Health Potion",
+        "type": "consumable",
+        "effect": "heal",
+        "value": 10,
+        "tier": "lesser",
+        "consumable": true
+      }
+    },
+    "Normal Health Potion": {
+      "materials": { "Herb Bundle": 4, "Essence": 3 },
+      "gold_cost": 20,
+      "result": {
+        "name": "Normal Health Potion",
+        "type": "consumable",
+        "effect": "heal",
+        "value": 30,
+        "tier": "normal",
+        "consumable": true
+      }
+    },
+    "Greater Health Potion": {
+      "materials": { "Herb Bundle": 6, "Essence": 5 },
+      "gold_cost": 40,
+      "result": {
+        "name": "Greater Health Potion",
+        "type": "consumable",
+        "effect": "heal",
+        "value": 60,
+        "tier": "greater",
+        "consumable": true
+      }
+    },
+    "Superior Health Potion": {
+      "materials": { "Herb Bundle": 8, "Essence": 7, "Gem Shard": 1 },
+      "gold_cost": 80,
+      "result": {
+        "name": "Superior Health Potion",
+        "type": "consumable",
+        "effect": "heal",
+        "value": 100,
+        "tier": "superior",
+        "consumable": true
+      }
+    },
+    "Supreme Health Potion": {
+      "materials": { "Herb Bundle": 10, "Essence": 10, "Gem Shard": 2 },
+      "gold_cost": 150,
+      "result": {
+        "name": "Supreme Health Potion",
+        "type": "consumable",
+        "effect": "heal",
+        "value": 150,
+        "tier": "supreme",
+        "consumable": true
+      }
+    }
+  },
+  "permanent_potions": {
+    "Potion of Vitality": {
+      "materials": { "Dragon Scale": 2, "Essence": 5, "Gem Shard": 2 },
+      "gold_cost": 400,
+      "result": { "effect": "permanent_hp_boost", "value": 10 },
+      "max_consumed": 1
+    },
+    "Elixir of Strength": {
+      "materials": { "Ogre Tooth": 2, "Essence": 4, "Gem Shard": 1 },
+      "gold_cost": 300,
+      "result": { "effect": "permanent_attack_boost", "value": 1 },
+      "max_consumed": 1
+    },
+    "Potion of Resilience": {
+      "materials": { "Troll Hide": 2, "Essence": 4, "Gem Shard": 1 },
+      "gold_cost": 300,
+      "result": { "effect": "permanent_defense_boost", "value": 1 },
+      "max_consumed": 1
+    }
+  }
+}
