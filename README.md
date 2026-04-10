@@ -73,49 +73,17 @@ You type commands in natural language. The Dungeon Master (LLM) interprets your 
 
 ---
 
-## 🖥️ Installation
+## Installation
 
-### Prerequisites
+Put all the files from this repo into a folder.
 
-- **Node.js** v18 or later (v22 recommended)
-- **Python 3.9+** with `pip`
-- **Ollama** – [Download](https://ollama.com/download) and install
-- Pull at least one model, e.g.:
-  ```bash
-  ollama pull nemotron-3-nano:4b
-  ```
+```bash
+1. cd ~/dungeonclaw (The folder that contains the files)
 
-### Setup
+2. npm install
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/dungeonclaw.git
-   cd dungeonclaw
-   ```
-
-2. **Install Node dependencies**
-   ```bash
-   npm install axios dotenv python-shell
-   ```
-
-3. **Install Python dependencies** (only `requests` is needed)
-   ```bash
-   pip install requests
-   ```
-
-4. **Generate the big template database** (if not already present)
-   ```bash
-   python3 templates.py
-   ```
-   This creates `templates.json` (~2000+ lines of rooms, monsters, items, etc.)
-
-5. **Configure environment** (optional)  
-   Copy `.env.example` to `.env` and adjust settings (model, timeouts, etc.).
-
-6. **Run the game**
-   ```bash
-   node dungeonclaw.js
-   ```
+3. npm start
+```
 
 ---
 
