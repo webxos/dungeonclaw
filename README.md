@@ -6,7 +6,7 @@
 
 **An Epic Fantasy AI Dungeon Master – Full RPG with TUI, quests, crafting, and local LLM integration.**
 
-DungeonClaw is a terminal‑based, single‑player role‑playing agent harness that turns your local Ollama model into a Dungeon Master with generated dungeon, fight monsters, complete quests, craft gear, and shape your character’s story – all guided by a Dungeon Master powered by **Ollama** (local LLM) and a robust Python game engine.
+DungeonClaw is a terminal‑based, single‑player role‑playing agent harness that turns your local Ollama model into a Dungeon Master with generated dungeon, fight monsters, complete quests, craft gear, and shape your character’s story – all guided by a robust Python game engine.
 
 > **Latest version v6.2** includes a complete balance overhaul: smarter monster scaling, fair flee chance, defense damage reduction, linear XP curve, level‑up choices, fixed quest objective tracking, zone‑dependent difficulty, improved economy, and much more.
 
