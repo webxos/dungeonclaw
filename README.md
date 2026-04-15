@@ -1,5 +1,7 @@
 # DungeonClaw v6.2 (Under Development)
 
+[![Follow on X](https://img.shields.io/badge/Follow_@dungeonclaw-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/dungeonclaw)
+
 ![Alt Text](https://github.com/webxos/dungeonclaw/blob/main/assets/logo.jpeg)
 
 **An Epic Fantasy AI Dungeon Master – Full RPG with TUI, quests, crafting, and local LLM integration.**
